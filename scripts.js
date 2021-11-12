@@ -170,7 +170,7 @@ const $images = document.querySelectorAll('img')
 const $buttons = document.querySelectorAll('button')
 
 for (let $image of $images) {
-    $image.addEventListener('click', function() {
+    $image.addEventListener('click', function(event) {
         $image.setAttribute('style', 'width: 80%; position: fixed; left: 10rem; top: 3rem; border: 5px solid black')
     })
     $image.addEventListener('dblclick', function() {
