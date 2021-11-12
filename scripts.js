@@ -12,6 +12,7 @@
     // Css reset no additional css or javascript libraries
     // layout is responsive for every display size 
     // Completes assignment 
+    // I could not find any use for target 
 
 
 // Data 
